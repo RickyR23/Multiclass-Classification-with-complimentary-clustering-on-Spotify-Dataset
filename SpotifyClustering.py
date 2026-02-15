@@ -10,6 +10,7 @@ from sklearn.metrics import silhouette_score, adjusted_rand_score, davies_bouldi
 file_path = "dataset.csv"
 df = pd.read_csv(file_path)
 
+// Update this column to distinguish between highlevel / low level feature sets between both datasets
 required_columns = ['danceability', 'loudness', 'valence', 'energy', 'tempo', 'track_genre']
 if all(col in df.columns for col in required_columns):
     df = df.dropna(subset=required_columns)
