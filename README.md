@@ -35,3 +35,12 @@ Utilizing a combination of supervised classification models and unsupervised clu
 
 
 
+
+
+Presentation from our Classification/Clustering findings (This portion of the presentation mostly drills on clustering algorithms and the results/analysis of the findings)
+[Music Genre Classification and Feature Comparison using ML (1).pptx](https://github.com/user-attachments/files/25328598/Music.Genre.Classification.and.Feature.Comparison.using.ML.1.pptx)
+
+
+
+*This project was completed in part and with the help of Ryan Arevalo and Kyle Cushing, 2024*
+
