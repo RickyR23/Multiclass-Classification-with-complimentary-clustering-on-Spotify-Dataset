@@ -1,5 +1,6 @@
 ﻿# Classification via Clustering on Music-based dataset
 **What this is**
+
 This project explores music genre analysis using a combination of supervised classification and unsupervised clustering techniques. Utilizing two main datasets, GTZAN for lower-level (spectral centroid, rolloff, flatness, etc.) in-depth features derived from audio signals, and a Spotify-based dataset with more high-level, human-interpretable/readable features (Upbeat, happiness, sadness, etc.). The following is the analysis of three supervised classification models (K-Nearest Neighbors, Decision Tree, Random Forest), which are utilized to evaluate and understand/determine if these models can determine how well genres can be predicted from each feature representation, and to compare how model performance differs between low-level acoustic and high-level perceptual feature spaces.
 With the support of these findings through unsupervised clustering algorithms (K-Means and Mean shift), we complement the classification analysis with further investigation to see if tracks are 'naturally' grouped into clear clusters with labels ignored. With a prior expectation of lower-level feature data sets to display a clearer distinction of apparent genres, we compare the following findings to find a clear picture of how well music genre is encoded within audio features to be classified/clustered, and if sub-genres that are obscure or even niche can be found.     
 
@@ -46,4 +47,5 @@ Presentation from our Classification/Clustering findings (This portion of the pr
 *Credit to the research paper and inspiration for our implementation of these Classification and Clustering analysis:
 Zhengxin Qi, Mohammed A. Jassim, Mohamed Rahouti, Nazli Siasi
 https://www.researchgate.net/publication/361231964_Music_Genre_Classification_and_Feature_Comparison_using_ML* 
+
 
