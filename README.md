@@ -7,9 +7,11 @@ With the support of these findings through unsupervised clustering algorithms (K
 We utilized two datasets that contrast each other in terms of feature-sets, with:
 
 - **GTZAN**: Considered to be a widely used benchmark for genre classification, contains an in-depth music dataset with features that include lower-level features derived from audio signals. This dataset, containing approximately 1,000 30-second length tracks across 10 different genres, includes lower-level features such as spectral bandwidth and rolloff, RMS energy, and various other audio-derived signal features. Considered highly balanced, this controlled environment is how our chosen classification models distinguish genres from each other based on audio features.
+
 Source: https://www.kaggle.com/datasets/carlthome/gtzan-genre-collection
 
 - **Spotify Dataset**: A spotify data set with approximately 114,000 data entries obtained through the Spotify Web API (Endpoint for this now deprecated), contains high level, human-interpretable/readable features derived from labels such as danceability, tempo, loudness, liveness, etc., where this dataset is considered highly imbalanced, through the characteristics of music instead of audio signal features.
+
 Source: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/discussion/374642
 
 Utilizing both of these Datasets, we compare the different feature properties from raw audio feature-sets to music, 'vibe', and genre attributes for classification and clustering. Both of these provide insights/perspectives on how genres may be classified with these various features.
@@ -30,5 +32,6 @@ Utilizing a combination of supervised classification models and unsupervised clu
 - K-Means Clustering: With the ability to partition tracks from either dataset into k-amount of clusters through reducing cluster variance, we utilize the elbow method to help select an appropriate number of clusters within a standardized feature space. Utilizing all standardized numeric features, dropping null or missing values throughout the dataset, and identifying compact clusters based on feature similarities is performed for a more feasible distinction/exploration of latent structure for unlabeled genres for tracks, and to see if meaningful genre groupings occur through the visualized output.
 
 - Mean Shift Clustering: A density-based clustering algorithm that was utilized to identify cluster centers through modes in the dataset rather than defining a k-amount of clusters as done with the elbow method in the K-Means algorithm. By applying feature pairs, after cleaning the dataset from null/missing values, meanshift is applied with an estimated bandwidth through user-inputted quantile values alongside a number of samples, used to control the neighborhood for the cluster centers within dense areas. Mean shift, in our case, is utilized to further explore whether dense areas of similar tracks are found with relevant feature spaces to display potential genre or sub-genres without using labels during a training phase.
+
 
 
