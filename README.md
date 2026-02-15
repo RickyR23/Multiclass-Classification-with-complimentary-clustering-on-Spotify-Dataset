@@ -5,6 +5,7 @@ This project explores music genre analysis using a combination of supervised cla
 With the support of these findings through unsupervised clustering algorithms (K-Means and Mean shift), we complement the classification analysis with further investigation to see if tracks are 'naturally' grouped into clear clusters with labels ignored. With a prior expectation of lower-level feature data sets to display a clearer distinction of apparent genres, we compare the following findings to find a clear picture of how well music genre is encoded within audio features to be classified/clustered, and if sub-genres that are obscure or even niche can be found.     
 
 **Datasets utilized for this analysis**
+
 We utilized two datasets that contrast each other in terms of feature-sets, with:
 
 - **GTZAN**: Considered to be a widely used benchmark for genre classification, contains an in-depth music dataset with features that include lower-level features derived from audio signals. This dataset, containing approximately 1,000 30-second length tracks across 10 different genres, includes lower-level features such as spectral bandwidth and rolloff, RMS energy, and various other audio-derived signal features. Considered highly balanced, this controlled environment is how our chosen classification models distinguish genres from each other based on audio features.
@@ -18,6 +19,7 @@ Source: https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/d
 Utilizing both of these Datasets, we compare the different feature properties from raw audio feature-sets to music, 'vibe', and genre attributes for classification and clustering. Both of these provide insights/perspectives on how genres may be classified with these various features.
 
 **Supervised Classification Models and Unsupervised clustering algorithms used**
+
 Utilizing a combination of supervised classification models and unsupervised clustering algorithms,  we employed supervised classification models to evaluate how well genres can be predicted when labels are available (Comparing Spotify and GTZAN), while unsupervised clustering provides both a supporting/exploratory analysis, through the approach of clustering without genre labels (Only GTZAN). The idea is to combine these approaches to offer a coupled insight into how genres may be seen with the different feature representations, and to find sub-genres that are obscure or niche within smaller/feature-specific groupings.
 
 **Supervised Classification Models:**
@@ -47,5 +49,6 @@ Presentation from our Classification/Clustering findings (This portion of the pr
 *Credit to the research paper and inspiration for our implementation of these Classification and Clustering analysis:
 Zhengxin Qi, Mohammed A. Jassim, Mohamed Rahouti, Nazli Siasi
 https://www.researchgate.net/publication/361231964_Music_Genre_Classification_and_Feature_Comparison_using_ML* 
+
 
 
