@@ -43,4 +43,7 @@ Presentation from our Classification/Clustering findings (This portion of the pr
 
 
 *This project was completed in part and with the help of Ryan Arevalo and Kyle Cushing, 2024*
+*Credit to the research paper and inspiration for our implementation of these Classification and Clustering analysis:
+Zhengxin Qi, Mohammed A. Jassim, Mohamed Rahouti, Nazli Siasi
+https://www.researchgate.net/publication/361231964_Music_Genre_Classification_and_Feature_Comparison_using_ML* 
 
