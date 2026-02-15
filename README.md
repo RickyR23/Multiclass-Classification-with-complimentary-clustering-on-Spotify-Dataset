@@ -40,7 +40,7 @@ Utilizing a combination of supervised classification models and unsupervised clu
 
 
 
-Presentation from our Classification/Clustering findings (This portion of the presentation mostly drills on clustering algorithms and the results/analysis of the findings)
+Presentation from the Research Paper Classification/Clustering findings (This portion of the presentation mostly drills on clustering algorithms and the results/analysis of the findings, per the research paper, actual demo of our implementation of the clustering algorithms / classification models was not recorded)
 [Music Genre Classification and Feature Comparison using ML (1).pptx](https://github.com/user-attachments/files/25328598/Music.Genre.Classification.and.Feature.Comparison.using.ML.1.pptx)
 
 
@@ -49,6 +49,7 @@ Presentation from our Classification/Clustering findings (This portion of the pr
 *Credit to the research paper and inspiration for our implementation of these Classification and Clustering analysis:
 Zhengxin Qi, Mohammed A. Jassim, Mohamed Rahouti, Nazli Siasi
 https://www.researchgate.net/publication/361231964_Music_Genre_Classification_and_Feature_Comparison_using_ML* 
+
 
 
 
